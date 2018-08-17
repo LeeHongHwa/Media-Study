@@ -1,0 +1,33 @@
+PODS:
+  - GPUImage2 (0.1.0)
+  - RxCocoa (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.2.0)
+
+DEPENDENCIES:
+  - GPUImage2 (from `./GPUImage2.podspec`)
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxCocoa
+    - RxSwift
+
+EXTERNAL SOURCES:
+  GPUImage2:
+    :podspec: "./GPUImage2.podspec"
+
+CHECKOUT OPTIONS:
+  GPUImage2:
+    :commit: d0f8f5d42ccc32c0f2898eabfefa6ecfba23c49e
+    :git: https://github.com/BradLarson/GPUImage2.git
+
+SPEC CHECKSUMS:
+  GPUImage2: 4ff31f41a47e240e5474b49d9e83e95e2ff5c562
+  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+
+PODFILE CHECKSUM: 733e8dbb0f4f433ba362808157ac8f185289addc
+
+COCOAPODS: 1.5.3
